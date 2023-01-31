@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link href="css/index.css" rel="stylesheet" type="text/css">
+      <link href="imagenes/favicon.png" rel="icon" type="image/x-icon">
+      <title>Contacto</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="container logo-nav-container">
+            <a href="index.html" class="logo">Arte en el Cabello</a>
+            <nav class="navegacion">
+               <ul>
+                 <li><a href="index.html">Inicio</a></li>
+                 <li><a href="productos.html">Productos</a></li>
+                 <li><a href="nosotros.html">Nosotros</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>
+               </ul>
+             </nav>
+            </div>
+      </header>
+      <main class="main">
+         <div class="container">
+            <h1>Contacto</h1>
+            <form>
+               <header>Formulario de Contacto</header>
+               <img src="imagenes/formulario.webp" alt="formulario" class="formulario">
+               <p>Nombre:<input type="text" placeholder="nombre"></p>
+               <p>Teléfono:<input type="text" placeholder="teléfono"></p>
+               <p>E-mail:<input type="email" required="on" placeholder="correo electrónico"></p>
+               <p>Mensaje:</br><textarea rows="10" cols="60" required="on" spellcheck="on"></textarea></p>
+               <input type="submit" value="Enviar" id="Enviar">
+            </form>
+         </div>
+         <script>
+            document.getElementById("Enviar").addEventListener("click", function() {
+            alert("Mensaje enviado!");
+             });
+         </script>
+      </main>
+      <footer class="footer">
+         <div class="container">
+         <p>Derechos Reservados Arte en el Cabello 2023</p>
+      </div>
+      </footer>
+   </body>
+</html>
