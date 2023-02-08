@@ -134,11 +134,11 @@ p{
   padding: 30px;
   border-radius: 10px;
   margin-top: 20%;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 /* Campos de texto */
-input[type="text"], input[type="password"] {
+.login input[type="text"], input[type="password"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -148,7 +148,7 @@ input[type="text"], input[type="password"] {
 }
 
 /* Botón */
-input[type="submit"] {
+.login input[type="submit"] {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -158,4 +158,31 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   margin-top: 5px;
+}
+
+/*aside*/
+aside{
+  background-color:black;
+  color:white;
+  width: 12%;
+  height: 30%;
+  padding: 2%;
+}
+.navegacion2 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .navegacion2 ul li{
+    display: inline-block;
+  }
+.navegacion2 ul li a{
+  display: block;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
+
+.navegacion2 ul li a:hover{
+  background: #4a4a4a;
 }

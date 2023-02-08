@@ -10,9 +10,21 @@
            var username = document.log.username.value;
            var password = document.log.password.value;
        
-           if (username === "usuario" && password === "usuario") {
-             window.location.href = "usuario.html";
-           }
+            if (username === "usuario" && password === "usuario"){
+                window.location.href = "usuario.html";
+            }
+            else if(username === "peluquero" && password === "peluquero"){
+               window.location.href = "peluquero.html";
+            }
+            else if(username === "recepcion" && password === "recepcion") {
+               window.location.href = "recepcion.html";
+            }
+            else if(username === "admin" && password === "admin"){
+               window.location.href = "admin.html";
+            }
+            else {
+            alert("Nombre de usuario o contraseña incorrectos");
+            }
          }
        </script>
    </head>
@@ -22,8 +34,7 @@
             <a href="index.html" class="logo">Arte en el Cabello</a>
             <nav class="navegacion">
                <ul>
-                 <li><a href="index.html">Inicio</a></li>
-                 <li><a href="productos.html">Productos</a></li>
+                 <li><a href="index.html">Inicio</a></li>                
                  <li><a href="nosotros.html">Nosotros</a></li>
                  <li><a href="contacto.html">Contacto</a></li>
                </ul>
@@ -34,8 +45,8 @@
          <section class="login-section" >
             <form class="login" action="#" name="log">
                <label for="username">Usuario:</label></br>
-               <input type="text" id="username" name="username" placeholder="Usuario">
-            </br>
+               <input type="text" id="username" name="username" autocomplete="off" placeholder="Usuario">
+               </br>
                <label for="password">Contraseña:</label></br>
                <input type="password" id="password" name="password" placeholder="Contraseña">
                </br>             
