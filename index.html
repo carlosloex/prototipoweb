@@ -5,6 +5,16 @@
       <link href="css/index.css" rel="stylesheet" type="text/css">
       <link href="imagenes/favicon.png" rel="icon" type="image/x-icon">
       <title>Inicio</title>
+      <script>
+         function login() {
+           var username = document.log.username.value;
+           var password = document.log.password.value;
+       
+           if (username === "usuario" && password === "usuario") {
+             window.location.href = "usuario.html";
+           }
+         }
+       </script>
    </head>
    <body>
       <header class="header">
@@ -21,9 +31,20 @@
             </div>
       </header>
       <main class="main">
-         <div class="container">
+         <section class="login-section" >
+            <form class="login" action="#" name="log">
+               <label for="username">Usuario:</label></br>
+               <input type="text" id="username" name="username" placeholder="Usuario">
+            </br>
+               <label for="password">Contraseña:</label></br>
+               <input type="password" id="password" name="password" placeholder="Contraseña">
+               </br>             
+               <input type="submit" value="Iniciar Sesión" onclick="login()">
+               </br>
+               <input type="submit" value="Registrarse">
+             </form>
              
-         </div>
+         </section>
       </main>
       <footer class="footer">
          <div class="container">
