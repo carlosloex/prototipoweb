@@ -114,7 +114,8 @@ p{
   padding-top: 110px;
 }
 
-.footer{
+footer{
+  position: absolute;
   width: 100%;
   background: black;
   color: white;
