@@ -120,6 +120,8 @@ p{
   padding: 10px 0;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  bottom: 0%;
 }
 
 .login-section{
