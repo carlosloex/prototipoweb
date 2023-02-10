@@ -121,8 +121,7 @@ p{
   padding: 10px 0;
   text-align: center;
   margin-top: 2rem;
-  bottom: 0px;
-  
+  bottom: 0%;
 }
 
 .login-section{
@@ -178,12 +177,13 @@ p{
 /*aside*/
 aside{
   width: 13%;
-  height: 30%;
+  height: auto;
   padding: 2%;
-  padding-bottom: 90%;
-  margin-top: -96%;
-  border: 0 solid black;
+  padding-bottom: auto;
+  margin-top: 2%;
+  border: 2px solid black;
 }
+
 .navegacion2 ul{
   margin: 0;
   padding: 0;
@@ -206,11 +206,22 @@ aside{
   .navegacion2 ul li a:visited{
     color:black;
   }
+
+  #contenedor-cuerpo{
+    margin: 0%;
+    padding: 0%;
+    border:2px solid black;
+    width: auto;
+    display: inline-block;
+  }
 /*section calendario*/
 #calendario {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-top: auto;
+ 
 }
 /*section rostro-personal*/
 #rostro-personal img{
