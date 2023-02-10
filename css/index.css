@@ -172,11 +172,11 @@ p{
 
 /*aside*/
 aside{
-  background-color:black;
-  color:white;
   width: 13%;
   height: 30%;
   padding: 2%;
+  padding-bottom: 90%;
+  margin-top: -30%;
 }
 .navegacion2 ul{
   margin: 0;
@@ -187,12 +187,38 @@ aside{
   .navegacion2 ul li{
     display: inline-block;
   }
-.navegacion2 ul li a{
+  .navegacion2 ul li a{
   display: block;
   padding: 1rem 1.5rem;
   border-radius: 5px;
-}
+  text-decoration: none;
+  }
 
-.navegacion2 ul li a:hover{
-  background: #4a4a4a;
+  .navegacion2 ul li a:hover{
+  background:gainsboro;
+  }
+  .navegacion2 ul li a:visited{
+    color:black;
+  }
+/*section calendario*/
+#calendario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*section rostro-personal*/
+#rostro-personal img{
+  width: 40%;
+  height: 40%;
+  margin-left: 30%;
+  margin-top:5%;
+  /*margin-bottom: 10%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+#rostro-personal div pre{
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
