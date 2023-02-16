@@ -113,10 +113,7 @@ p{
 
 /*.main{
   padding-top: 110px;
-<<<<<<< HEAD
 }*/
-=======
-}
 
 footer{
   position: absolute;
@@ -128,7 +125,6 @@ footer{
   margin-top: 2rem;
   bottom: 0%;
 }
->>>>>>> a660eb849be25ad25a2bd61e6c05c9235d3243d5
 
 .login-section{
   width: 100%;
