@@ -113,7 +113,22 @@ p{
 
 /*.main{
   padding-top: 110px;
+<<<<<<< HEAD
 }*/
+=======
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 2rem;
+  bottom: 0%;
+}
+>>>>>>> a660eb849be25ad25a2bd61e6c05c9235d3243d5
 
 .login-section{
   width: 100%;
