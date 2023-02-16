@@ -4,44 +4,50 @@
       <meta charset="UTF-8">
       <link href="css/index.css" rel="stylesheet" type="text/css">
       <link href="imagenes/favicon.png" rel="icon" type="image/x-icon">
-      <title>Usuario</title>
+      <title>Administrador</title>
    </head>
    <body>
       <header class="header">
          <div class="container logo-nav-container">
             <a href="" class="logo">Arte en el Cabello</a>
             <nav class="navegacion">
-               <ul>
-                 <li><a href="nosotros.html">Nosotros</a></li>
-                 <li><a href="contacto.html">Contacto</a></li>
+               <ul>                
                  <li><a href="index.html">Cerrar Sesión</a></li>
                </ul>
              </nav>
             </div>
       </header>
-      <main class="main">
-         <aside>
-            <h2 class="p1">Administrador</h2>
-            <nav class="navegacion2">
-               <ul>
-                 <li><a>Usuarios</a></li>
-                 <li><a>Empleados</a></li>
-                 <li><a>Inventario</a></li>
-                 <li><a>Ventas</a></li>
-               </ul>
-             </nav>
-         </aside>
-         <section name="reservar-cita">
-            <form>
-               <label>Reserva de Cita</label>
-               <input type="month" id="mes" name="mes" required="required">
-            </form>
-         </section>
+      <main class="main-contenedor">
+         <aside class="menu-lateral"> 
+            <section>           
+               <h2 class="logo">Administrador</h2>
+                <nav class="navegacion2">
+                 <ul>
+                     <li><a href="#ancla-inventario">Inventario</a></li>
+                     <li><a href="#ancla-rostro-peluqueros">Usuarios</a></li>
+                     <li><a href="#ancla-servicios">Empleados</a></li>
+                     <li><a href="#ancla-mostrar-cita">Ventas</a></li>
+                  </ul>
+               </nav> 
+            </section>              
+         </aside>          
+            <section class="calendario" id="ancla-inventario">  
+               <img src="imagenes/inventario.webp">             
+            </section>
+            <section class="peluqueros" id="ancla-rostro-peluqueros">
+               <div>
+                  <img src="imagenes/usuarios.png" width="90%" height="90%" style="margin:5% 0% 20% 0%">
+               </div>
+            </section> 
+            <section class="servicios" id="ancla-servicios">
+            </section>
+            <section class="mostrar-cita" id="ancla-mostrar-cita"> 
+            </section>                     
       </main>
-      <footer class="footer">
+      <footer>
          <div class="container">
-         <p>Derechos Reservados &#169 Arte en el Cabello 2023</p>
-      </div>
+          <p>Derechos Reservados &#169 Arte en el Cabello 2023</p>
+        </div>
       </footer>
    </body>
 </html>

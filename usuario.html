@@ -19,36 +19,51 @@
              </nav>
             </div>
       </header>
-      <main class="main">
-         <aside>            
-            <h2 class="logo" style="text-align: center;">Usuario</h2>
-            <nav class="navegacion2">
-               <ul>
-                 <li><a href="#reservar-cita">Reservar Cita</a></li>
-                 <li><a href="#peluqueros">Peluqueros</a></li>
-                 <li><a >Servicios</a></li>
-                 <li><a>Cita</a></li>
-               </ul>
-             </nav>            
-            </aside> 
-         <section id="contenedor-cuerpo">
-         <section id="calendario">
-            <div id="reservar-cita">
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showPrint=0&showCalendars=0&showTitle=0&showNav=1&showTabs=0&showTz=0&src=NzdmYTQ4MTQ0NzMxNjg4MDJiZjcyNDk1NGVkNzYyMTdkY2E3M2M2NGQ3MWYzN2M5MzFkMzMzYTgzNTM3ODFhZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border-width:1px;" width="700" height="500" frameborder="0" scrolling="no">
-            </iframe>
-            </div>
-         </section>
-         <section id="rostro-personal">
-            <div id="peluqueros">
+      <main class="main-contenedor">
+         <aside class="menu-lateral"> 
+            <section>           
+               <h2 class="logo">Usuario</h2>
+                <nav class="navegacion2">
+                 <ul>
+                     <li><a href="#ancla-reservar-cita">Reservar Cita</a></li>
+                     <li><a href="#ancla-rostro-peluqueros">Peluqueros</a></li>
+                     <li><a href="#ancla-servicios">Servicios</a></li>
+                     <li><a href="#ancla-mostrar-cita">Cita</a></li>
+                  </ul>
+               </nav> 
+            </section>              
+         </aside>          
+            <section class="calendario" id="ancla-reservar-cita">               
+                  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showPrint=0&showCalendars=0&showTitle=0&showNav=1&showTabs=0&showTz=0&src=NzdmYTQ4MTQ0NzMxNjg4MDJiZjcyNDk1NGVkNzYyMTdkY2E3M2M2NGQ3MWYzN2M5MzFkMzMzYTgzNTM3ODFhZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161" style="border-width:1px;" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+            </section>
+            <section class="peluqueros" id="ancla-rostro-peluqueros">
+               <div class="rostro-peluqueros">
                <img src="imagenes/rostros-peluq.jpg">
-               <pre>Diana Medina                  Juan Mendez</pre>
+               <pre>Diana Medina         Juan Mendez</pre>
                <img src="imagenes/rostros-peluq2.jpeg">
-               <pre>Valeria Dubas                  Miguel Rios</pre>
-            </div>
-         </section> 
-         </section>              
+               <pre>Valeria Dubas         Miguel Rios</pre>
+               </div>
+            </section> 
+            <section class="servicios" id="ancla-servicios">
+               <img src="imagenes/servicios.png">
+            </section>
+            <section class="mostrar-cita" id="ancla-mostrar-cita">  
+               <form>
+                  <legend><h2>Tu proxima cita es el</h2></legend>
+                  <label>Nombre</label>
+                  <input type="text" value="Usuario"></br>
+                  <label>Fecha</label>                  
+                  <input type="date" value="02/04/2023"></br>
+                  <label>Hora</label>
+                  <input type="time" value="13:30"></br>
+                  <label>servicio</label>
+                  <input type="text" value="Corte de cabello"></br>
+                  <label>Estilista</label>
+                  <input type="text" value="Diana Medina">
+               </form>
+            </section>                     
       </main>
-      <footer class="footer">
+      <footer>
          <div class="container">
           <p>Derechos Reservados &#169 Arte en el Cabello 2023</p>
         </div>
