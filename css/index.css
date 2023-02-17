@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -111,21 +115,6 @@ p{
   align-items: center;
 }
 
-/*.main{
-  padding-top: 110px;
-}*/
-
-footer{
-  position: absolute;
-  width: 100%;
-  background: black;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  margin-top: 2rem;
-  bottom: 0%;
-}
-
 .login-section{
   width: 100%;
   margin:auto;
@@ -176,25 +165,12 @@ footer{
   margin-top: 5px;
 }
 
-/*aside
-aside{
-  width: 13%;
-  height: auto;
-  padding: 2%;
-  padding-bottom: auto;
-  margin-top: 2%;
-  border: 2px solid black;
-}
-*/
 .navegacion2 ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-  /*.navegacion2 ul li{
-    display:block;
-  }*/
   .navegacion2 ul li a{
   display: block;
   padding: 1rem 1.5rem;
@@ -210,25 +186,6 @@ aside{
     color:black;
   }
   
-
-  /*#contenedor-cuerpo{
-    margin: 0%;
-    padding: 0%;
-    border:2px solid black;
-    
-  }*/
-/*section calendario
-#calendario {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-top: auto;
- 
-}*/
-/*section rostro-personal*/
-
-
 .main-contenedor {
   margin-top: 7%;
   display: grid;
@@ -250,23 +207,23 @@ aside{
       margin-left: 20%;
     }
 
-  .calendario {
+  .seccion1 {
      grid-area: 1 / 2 / 2 / 4; 
      display: flex;
      align-items: flex-start;
      align-content: center;
      flex-flow:column wrap;
   }
-    .calendario iframe{
+    .seccion1 iframe{
       margin-right: 25%;
     }
-    .calendario img{
+    .seccion1 img{
       width: 70%;
       height: 90%;
       margin-right: 10%;
     }
 
-  .peluqueros {
+  .seccion2 {
      grid-area: 2 / 2 / 3 / 4; 
      display: flex;
      align-items: center;
@@ -284,14 +241,14 @@ aside{
     margin-right: 30%;
     }
 
-  .servicios { 
+  .seccion3 { 
     grid-area: 3 / 2 / 4 / 4;
     display: flex;
     align-items: center;
     align-content: center;
     flex-flow: column wrap; 
   }
-    .servicios img{
+    .seccion3 img{
       width: 60%;
       height: 85%;
       margin-top: 4%;
@@ -299,17 +256,17 @@ aside{
       border-radius: 15%;
     }
 
-  .mostrar-cita {
+  .seccion4 {
     grid-area: 4 / 2 / 5 / 4;
     display: flex;
     align-items: center;
     align-content:center ;
     flex-flow: column wrap;  
   }
-    .mostrar-cita form{
+    .seccion4 form{
       margin-right: 40%;
     }
-    .mostrar-cita form input{
+    .seccion4 form input{
       width: 100%;
       padding: 10px;
       margin-bottom: 20px;
@@ -319,6 +276,19 @@ aside{
       background-color: antiquewhite;
     }
 
+.grid-pequeño {
+      margin-top: 7%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr) ;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+
+      #footer3y4{
+        position: absolute;
+        bottom: 0%;
+      }
 footer {
     width: 100%;
     background: black;
@@ -326,6 +296,8 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 2rem;
-    bottom: 0px;
+    bottom: 0%;
+    margin-bottom: 0%;
     position: relative;
+    
 }
