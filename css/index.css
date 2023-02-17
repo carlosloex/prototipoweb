@@ -285,10 +285,6 @@ p{
       grid-row-gap: 0px;
       }
 
-      #footer3y4{
-        position: absolute;
-        bottom: 0%;
-      }
 footer {
     width: 100%;
     background: black;
@@ -298,6 +294,10 @@ footer {
     margin-top: 2rem;
     bottom: 0%;
     margin-bottom: 0%;
-    position: relative;
-    
+    position: relative;    
+}
+
+#footer3y4{
+  position: absolute;
+  bottom: 0%;
 }
